@@ -14,8 +14,7 @@ public class hitText : MonoBehaviour
     void Start()
     {
         items = new string[5];
-        items[1] = "Rock";
-        items[2] = "Sphere";
+        
         currentItem = GetComponent<TextMeshProUGUI>();
     }
 
