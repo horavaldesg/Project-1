@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 730495138}
   m_Layer: 0
   m_Name: Area1
-  m_TagString: Untagged
+  m_TagString: Area
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 941464812}
   m_Layer: 0
   m_Name: Area 2
-  m_TagString: Untagged
+  m_TagString: Area
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
