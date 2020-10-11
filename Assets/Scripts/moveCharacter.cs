@@ -13,7 +13,8 @@ public class moveCharacter : MonoBehaviour
     public float Gravity = -9.8f;
     public float jumpSpeed = 9;
 
-    public float speedBoost = 1f;
+    float speedBoost;
+    public float multiplier;
     bool grounded;
 
     // Start is called before the first frame update
@@ -27,7 +28,7 @@ public class moveCharacter : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speedBoost = 3f;
+            speedBoost = multiplier;
         }
         else
         {
