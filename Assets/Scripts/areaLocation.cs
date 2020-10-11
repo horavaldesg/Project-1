@@ -18,7 +18,7 @@ public class areaLocation : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Area"))
+        if (other.gameObject.CompareTag("Player"))
         {
             locationText.text = location;
         }

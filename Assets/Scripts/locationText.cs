@@ -17,5 +17,6 @@ public class locationText : MonoBehaviour
     void Update()
     {
         areaText.text = text;
+        //text = "";
     }
 }

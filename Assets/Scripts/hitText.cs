@@ -13,8 +13,9 @@ public class hitText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        items = new string[5];
-        
+        //items = new string[5];
+        //items[1] = "rock";
+        //items[2] = "sphere";
         currentItem = GetComponent<TextMeshProUGUI>();
     }
 
@@ -24,6 +25,9 @@ public class hitText : MonoBehaviour
         
         
         currentItem.text = items[index];
+        
+        //Debug.Log(currentItem.text = items[index]);
+        //Debug.Log("index: " + index);
         index = 0;  
     }
 }
