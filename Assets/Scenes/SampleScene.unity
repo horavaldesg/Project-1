@@ -330,7 +330,7 @@ Transform:
   m_GameObject: {fileID: 148539269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -512, y: 10, z: 492}
-  m_LocalScale: {x: 900, y: 20, z: 900}
+  m_LocalScale: {x: 925, y: 20, z: 925}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -498,11 +498,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   camTransform: {fileID: 963194228}
-  speed: 10
+  speed: 50
   verticalSpeed: 0
   Gravity: -9.8
   jumpSpeed: 0
-  multiplier: 5
+  multiplier: 2.5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ Transform:
   m_GameObject: {fileID: 730495133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -512, y: 10, z: -492}
-  m_LocalScale: {x: 900, y: 20, z: 900}
+  m_LocalScale: {x: 925, y: 20, z: 925}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1026,7 +1026,7 @@ Transform:
   m_GameObject: {fileID: 941464811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 512, y: 10, z: -492}
-  m_LocalScale: {x: 900, y: 20, z: 900}
+  m_LocalScale: {x: 925, y: 20, z: 925}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1961,7 +1961,7 @@ Transform:
   m_GameObject: {fileID: 2061915835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 512, y: 10, z: 492}
-  m_LocalScale: {x: 900, y: 20, z: 900}
+  m_LocalScale: {x: 925, y: 20, z: 925}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8

@@ -78,7 +78,9 @@ public class moveCharacter : MonoBehaviour
 
 
                 }
-            
+                /*
+                 * Add loading for first time analysis
+                 */
                 
             }
             
