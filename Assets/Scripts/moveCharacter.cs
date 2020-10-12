@@ -75,7 +75,11 @@ public class moveCharacter : MonoBehaviour
                 if (hit.collider.CompareTag("Item"))
                 {
                 hitText.index = hit.transform.gameObject.GetComponent<items>().itemNumber;
-
+                //if (items.counter <= 0)
+                //{
+                //    items.counting = true;
+                //}
+                
 
                 }
                 /*

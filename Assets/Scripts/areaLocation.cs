@@ -21,6 +21,12 @@ public class areaLocation : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             locationText.text = location;
+            
         }
+        
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        locationText.text = "";
     }
 }

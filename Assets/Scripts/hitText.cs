@@ -9,6 +9,7 @@ public class hitText : MonoBehaviour
     string item;
     public string[] items;
     public static int index;
+    public static bool showItem;
     
     // Start is called before the first frame update
     void Start()
@@ -22,12 +23,16 @@ public class hitText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //if (showItem)
+        //{
+            currentItem.text = items[index];
+            index = 0;
+        //}
         
-        
-        currentItem.text = items[index];
         
         //Debug.Log(currentItem.text = items[index]);
         //Debug.Log("index: " + index);
-        index = 0;  
+        
     }
 }
